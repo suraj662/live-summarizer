@@ -1,0 +1,36 @@
+echo "
+# Backend secrets and large files
+backend/serviceAccountKey.json
+backend/models/whisper/*.pt
+backend/models/whisper/
+*.pt
+*.pth
+*.bin
+
+# MacOS
+.DS_Store
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.pyc
+venv/
+*.pyo
+*.pyd
+
+# Node
+node_modules/
+.next/
+out/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+" >> .gitignore

@@ -2,7 +2,7 @@
 
 A real-time meeting summarizer that captures audio via WebRTC, transcribes it locally using Whisper, and generates on‑demand summaries using Ollama (or optionally Gemini). Perfect for capturing decisions and action items from live conversations.
 
-![Screenshot](https://via.placeholder.com/800x400?text=Live+Meeting+Summarizer+UI) *(replace with actual screenshot later)*
+![Screenshot](sr111.png) *(replace with actual screenshot later)*
 
 ---
 
